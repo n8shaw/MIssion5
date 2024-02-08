@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Request A Consult";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>If you want a consultation on how to make sourdough bread, See the Calculator below to determine the consultancy fee</p>
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="calculator">
+    <label for="hours">Enter the number of hours:</label>
+    <input type="number" id="hours" min="0" required>
+
+    <label>Hourly rate:</label>
+    <input type="text" id="hourlyRate" value="$30" readonly>
+
+    <button onclick="calculateTotal()">Calculate Total</button>
+
+    <div id="total" class="output-box"></div>
+
+    
+</div>
