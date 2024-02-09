@@ -13,12 +13,12 @@ namespace MIssion5.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index()//navigate to index page
         {
             return View();
         }
 
-        public IActionResult LearnMore()
+        public IActionResult LearnMore()//navigate to learn more page
         {
             return View();
         }
